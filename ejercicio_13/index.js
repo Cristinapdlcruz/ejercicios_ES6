@@ -12,6 +12,10 @@ const mainCharacters = [
   'Obi-Wan'
 ]
 
+const findArrayIndex = (array, text) => {
+  return array.indexOf(text)
+}
+
 const removeItem = (array, text) => {
   const index = findArrayIndex(array, text)
   if (index !== -1) {
